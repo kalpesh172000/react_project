@@ -1,5 +1,6 @@
 import './App.css'
 import Simplelist from './components/simplelist.jsx'
+import ThreeImages from './components/threeimages.jsx'
 import Variableinhtml from './components/variableinhtml.jsx'
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <>
     <Simplelist/>
     <Variableinhtml/>
+    <ThreeImages/>
     </>
 )
 }
