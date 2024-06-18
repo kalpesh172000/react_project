@@ -1,6 +1,8 @@
 import './App.css'
+import Cssstyle from './components/cssstyle.jsx'
 import Simplelist from './components/simplelist.jsx'
-import ThreeImages from './components/threeimages.jsx'
+// import ThreeImages from './components/threeimages.jsx'
+import CUser from './components/CalculatorUser.jsx'
 import Variableinhtml from './components/variableinhtml.jsx'
 
 function App() {
@@ -8,7 +10,9 @@ function App() {
     <>
     <Simplelist/>
     <Variableinhtml/>
-    <ThreeImages/>
+    {/* <ThreeImages/> */}
+    <Cssstyle/>
+    <CUser/>
     </>
 )
 }
