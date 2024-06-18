@@ -2,7 +2,7 @@ function Simplelist()
 {
     return(
         <>
-        <h1>This Is My Shopping List</h1>
+        <h1 className='text-3xl font-bold underline'>This Is My Shopping List</h1>
         <ul>
             <li>tomato</li>
             <li>potato</li>
